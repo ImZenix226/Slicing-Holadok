@@ -1,0 +1,239 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');');
+
+:root{
+    --main-font:  'Source Sans Pro', sans-serif;
+    --secondary-font:  'DM Sans', sans-serif;
+    --text-color: #101C45;
+    --button-color: #203271;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    font-family: var(--main-font);
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar{
+    max-width: 1200px;
+    padding: 38px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    padding: 0 0 0 120px;
+}
+
+.list a.active{
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    color: var(--text-color);
+}
+
+.list a{
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    color: #000;
+}
+
+
+.login a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-color);
+    gap: 16px;
+}
+
+.btnLogin{
+    padding: 8px 20px;
+}
+
+.btnBook{
+    padding: 8px 20px;
+    border: 2px solid var(--text-color);
+    border-radius: 4px;
+}
+
+.heroSection{
+    display: flex;
+}
+
+.textHero{
+    width: 457px;
+    height: 391px;
+    margin-top: 200px;
+}
+
+.textHero h1{
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.textHero p{
+    padding-top: 12px;
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn{
+    padding-top: 36px;
+}
+
+.btn a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--main-font);
+    color: #fff;
+    background-color: var(--button-color);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+.rectangle{
+    background: url('img/Rectangle.svg');
+    background-size: cover;
+    width: 590px;
+    height: 847px;
+    position : absolute ;
+    top:18px;
+    left:764px;
+    z-index: -1;
+}
+
+.heroImage img{
+    position : absolute ;
+    top:71px;
+    left:800px;
+}
+
+.box{
+    position :absolute ;
+    top: 218px;
+    left: 663px;
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 292px;
+    height: 182px;
+    background: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.profile{
+    display : flex;
+    align-items: center;
+    gap: 8px
+}
+
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.profile h1{
+    font-family: var(--main-font);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text p{
+    font-family: var(--main-font);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--text-color);
+    padding-top: 12px;
+}
+
+.quoteImg{
+    position: absolute;
+    background: url('img/quoteImg.svg');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    top: 20px;
+    left: 250px;
+}
+
+.footer{
+    position: absolute;
+    top: 865px;
+    display: flex;
+    width: 1200px;
+    height: 191px;
+    background: var(--button-color);
+    border-radius: 8px;
+}
+
+.footerDetail{
+    display: flex;
+    width: 359px;
+    height: 111px;
+    gap: 25px;
+    margin: auto;
+}
+
+.footerDetail img{
+    width: 40px;
+    height: 40px;
+}
+
+.footerDetail h1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    color: #fff;
+}
+
+.footerDetail p{
+    font-family: var (--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+    line-height: 26px;
+}
